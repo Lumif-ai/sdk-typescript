@@ -192,6 +192,9 @@ async function generate(srcFile: string, destFile: string): Promise<void> {
       if (schema.$id?.includes('serverlessworkflow.io')) {
         return 'Workflow';
       }
+      if (schema.$id?.includes('lumifai.s3.us-east-1.amazonaws.com')) {
+        return 'Workflow';
+      }
       if (schema.$id == 'OpenIdConnectAuthenticationProperties') {
         return schema.$id;
       }

@@ -1,6 +1,6 @@
 {
-  "name": "@serverlessworkflow/sdk",
-  "version": "1.0.1",
+  "name": "@lumifai/serverless-workflow-sdk",
+  "version": "1.0.3",
   "schemaVersion": "1.0.0",
   "description": "Typescript SDK for Serverless Workflow Specification",
   "main": "umd/index.umd.min.js",
@@ -75,19 +75,23 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/serverlessworkflow/sdk-typescript.git"
+    "url": "git+https://github.com/serverlessworkflow/sdk-typescript.git"
   },
-  "author": {
-    "name": "Serverless Workflow Contributors",
-    "url": "https://serverlessworkflow.io"
-  },
-  "license": "http://www.apache.org/licenses/LICENSE-2.0.txt",
-  "bugs": {
-    "url": "https://github.com/serverlessworkflow/sdk-typescript/issues"
-  },
-  "homepage": "https://serverlessworkflow.io",
+  "author": "Lumifai (https://lumif.ai)",
+  "license": "Apache-2.0",
   "engines": {
     "node": ">=20.0",
     "npm": ">=10.0.0"
-  }
+  },
+  "directories": {
+    "example": "examples",
+    "test": "tests"
+  },
+  "keywords": [
+    "serverless-workflow"
+  ],
+  "bugs": {
+    "url": "https://github.com/serverlessworkflow/sdk-typescript/issues"
+  },
+  "homepage": "https://github.com/serverlessworkflow/sdk-typescript#readme"
 }
