@@ -1,5 +1,5 @@
 {
-  "$id": "https://serverlessworkflow.io/schemas/1.0.0/workflow.json",
+  "$id": "https://lumifai.s3.us-east-1.amazonaws.com/workflow.json",
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "description": "Serverless Workflow DSL - Workflow Schema.",
   "type": "object",
@@ -496,7 +496,7 @@
                     "host": {
                       "type": "string",
                       "description": "The hostname of the GRPC service to call.",
-                      "pattern": "^[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?$"
+                      "pattern": "^[a-zA-Z0-9](?:[a-zA-Z0-9-.]{0,61}[a-zA-Z0-9])?$"
                     },
                     "port": {
                       "type": "integer",
